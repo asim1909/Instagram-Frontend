@@ -22,14 +22,12 @@
     }
     
     .navbar .container {
-    /* background-color: #555; */
     color: #202020;
     padding: 15px 0;
     width: 75%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 0 auto; */
     }
     
     .container .logo {
@@ -81,7 +79,6 @@
     .nav-links {
     font-weight: lighter;
     color: rgb(172, 172, 172);
-    /* background: #333 ; */
     }
     
     .nav-group .nav-item {
@@ -116,7 +113,6 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    /* background: #ddd; */
     }
     
     .col-9 {
@@ -185,7 +181,6 @@
     margin-bottom: 20px;
     position: relative;
     width: 100%;
-    /* min-height: 400px; */
     display: inline-block;
     }
     
@@ -298,7 +293,6 @@
     }
     
     .col-9 .card .top .userDetails h3 {
-    /* width: 100%; */
     font-size: 16px;
     color: #4d4d4f;
     font-weight: 500;
@@ -430,7 +424,7 @@
     }
     }
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 500px) {
     .container {
         width: 100% !important;
     }
